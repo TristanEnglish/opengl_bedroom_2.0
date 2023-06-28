@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "__locale": "c",
+        "locale": "c",
+        "cscix239.h": "c",
+        "vec3.hpp": "c",
+        "vector_uint3_precision.hpp": "c",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+}
