@@ -42,5 +42,5 @@ Key bindings\
   ESC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Exit
   
 ## References
-Texture images sourced from textures.com, CSCIx229 library sourced from Willem A. (Vlakkies) Schreuder.
+Texture maps sourced from textures.com and Poly Haven, CSCIx239 library sourced from Willem A. (Vlakkies) Schreuder.
 
