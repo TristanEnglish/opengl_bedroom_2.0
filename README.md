@@ -1,4 +1,4 @@
-# OpenGL Bedroom (Shader-fied) - Final Project Submission
+# OpenGL Bedroom 2.0 (Shader-fied) - Final Project Submission
 Tristan English\
 Advanced Computer Graphics (CSCI 4239) Fall 2022
 
