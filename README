@@ -1,26 +1,3 @@
-For this project, I reworked my original final project from CSCI 4229, adding new and improved textures with normal mapping. While I wasn't able to get TBN matrices working, it ended up looking fairly accurate, since much of the scene consists of simple quads and cuboids. For the more complex objects, like the luxo lamp, I was able to selectively render them without normal mapping to keep relatively accurate lighting across the scene.
-
-Additionally, I experimented with more stylized shaders, modifying the toon shader from Lighthouse 3D. I added a few more shading sections, a white specular highlight, and sampled the color from the vertex shader to use the base color in the toon shader. What I'm most proud of here comes in post processing. Looking at cel shading online, I found it typically has a black outline - similar to a pen stroke in hand-drawn animation. To emulate this look, I used the frame buffer to calculate Sobel edge detection, inverted the result, and multiplied it by the pixel color to produce a black outline, which gave me the effect I was looking for! To increase the thickness, you can increase the number of post-processing passes, though this comes with some coloring artifacts from the edge detection.
-
-Finally, I played around with some more post-processing effects, since I went to the effort of setting up the frame buffer. I have two black and white shaders (one using the averaging method and the other using the luminance method), a red, green, and blue filter, an inverse filter, a high contrast filter, and a color swap filter using a color matrix I create in the shader. These were super fun to play around with, and come with the added bonus of being able to apply them to the regular scene, the normal mapped scene, and the toon scene, since I'm stacking the shaders on top of each other.
-
-To run, use make and ./final
-
-Key bindings
-  m/M        Cycle through shaders
-  g/G        Cycle through post-processing shaders
-  n/N        Increase/decrease number of post-processing passes
-  r/R        Cycle through scenes
-  t/T        Cycle through textures (for solo quad render only)
-  s/S        Start/stop light
-  p/P        Toggle between orthogonal & perspective projection
-  -/+        Change light elevation
-  a          Toggle axes
-  arrows     Change view angle
-  Z/X  Zoom in and out
-  0          Reset view angle
-  ESC        Exit
-
 # OpenGL Bedroom (Shader-fied) - Final Project Submission
 Tristan English\
 Advanced Computer Graphics (CSCI 4239) Fall 2022
