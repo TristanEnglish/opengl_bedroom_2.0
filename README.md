@@ -2,9 +2,9 @@
 Tristan English\
 Advanced Computer Graphics (CSCI 4239) Fall 2022
 
-## Screenshot
+<!--## Screenshot
 
-<img width="595" alt="bedroom" src="https://user-images.githubusercontent.com/71680462/230977126-93a92f38-7d58-4bca-bea2-6badbbcfd371.png">
+ <img width="595" alt="bedroom" src="https://user-images.githubusercontent.com/71680462/230977126-93a92f38-7d58-4bca-bea2-6badbbcfd371.png"> -->
 
 ## Description
 
